@@ -1,0 +1,51 @@
+.header-section{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.header-section-s {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+}
+
+.header-section-container {
+  padding: 200px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.header-title {
+  color: #ffffff;
+  color: #ffcc33;
+  align-items: center;
+  font-size: 140px;
+  /* line-height: 2.6; */
+  text-decoration: none;
+}
+
+.header-subtitle {
+  color: #ffffff;
+  align-items: center;
+  font-size: 40px;
+  /* line-height: 2.6; */
+  text-decoration: none;
+}
+
+#BG {background-image: url("../graphics/alexis-antoine-kXMe4hugFA4-unsplash.jpg")}
+
+@media screen and (max-width: 1199px) {
+
+}
+@media screen and (max-width: 767px) {
+  .header-title {
+    font-size: 70px;
+  }
+  .header-subtitle {
+    font-size: 25px;
+  }
+}

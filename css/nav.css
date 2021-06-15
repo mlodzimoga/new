@@ -1,0 +1,86 @@
+.aside-section {
+  position: fixed;
+  top: 0px;
+  width: calc(100vw - 100px);
+  height: 40px;
+  padding: 15px 50px;
+  /* box-shadow: 12px 12px 96px var(--cardComponentshadowColor); */
+}
+
+.aside-container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  width: 100%;
+}
+
+.aside-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: flex-start;
+}
+
+.logo {
+  border: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+
+#LG{background-image: url("../graphics/logo.png")}
+
+.nav-title {
+  border: none;
+  /* width: 80px; */
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn{
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #808080;
+}
+
+.btn2{
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #ffffff00;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: #808080;
+}
+
+
+@media screen and (max-width: 767px) {
+  .aside-section {
+    width: calc(100vw - 50px);
+    padding: 15px 25px;
+  }
+  .aside-bar {
+    gap: 20px;
+  }
+}
