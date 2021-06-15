@@ -90,8 +90,8 @@
 
 @media screen and (max-width: 767px) {
   .aside-section {
-    width: calc(100vw - 100px);
-    padding: 15px 50px;
+    width: calc(100vw - 60px);
+    padding: 15px 30px;
   }
   .aside-bar {
     gap: 20px;

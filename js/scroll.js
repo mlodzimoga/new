@@ -1,7 +1,7 @@
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
       // main position
         document.getElementById("nav").style.backgroundColor = "var(--mainBackgroundColor)";
         document.getElementById("nav").style.color = "var(--cardHeaderColor)";

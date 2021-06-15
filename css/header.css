@@ -2,6 +2,7 @@
   height: 100vh;
   width: 100%;
   display: flex;
+  flex-direction: row;
   background-position: center;
   background-size: cover;
   text-decoration: none;
@@ -15,9 +16,43 @@
 
 .header-section-container {
   padding: 200px 0px;
-  width: 100%;
+  width: calc(100vw - 200px);
   text-align: center;
 }
+
+.header-section-aside {
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-section-aside-bar {
+  padding: 0px 0px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-start;
+  color: #ffffff;
+}
+
+.socialmedia-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#IFB {background-image: url("../graphics/socialmedia-icons/fb.png")}
+#ITT {background-image: url("../graphics/socialmedia-icons/tt.png")}
+#IIG {background-image: url("../graphics/socialmedia-icons/ig.png")}
+#IYT {background-image: url("../graphics/socialmedia-icons/yt.png")}
 
 .header-title {
   color: #ffffff;
@@ -36,7 +71,7 @@
   text-decoration: none;
 }
 
-#BG {background-image: url("../graphics/alexis-antoine-kXMe4hugFA4-unsplash.jpg")}
+#BG {background-image: url("../graphics/arthur-poulin-NhU0nUR7920-unsplash.png")}
 
 @media screen and (max-width: 1199px) {
 
