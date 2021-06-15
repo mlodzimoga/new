@@ -30,7 +30,6 @@
 }
 
 .header-section-aside-bar {
-  padding: 0px 0px;
   width: 40px;
   display: flex;
   flex-direction: column;
@@ -82,5 +81,20 @@
   }
   .header-subtitle {
     font-size: 25px;
+  }
+
+
+  .header-section-aside {
+    width: 60px;
+  }
+  .header-section-aside-bar {
+    width: 30px;
+  }
+  .socialmedia-icon {
+    height: 30px;
+    width: 30px;
+  }
+  .header-section-container {
+    width: calc(100vw - 120px);
   }
 }
