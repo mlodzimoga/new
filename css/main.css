@@ -180,7 +180,7 @@ a.card-text:hover {
 #cv-button:hover {background-color: grey}
 #cv-button-container {line-height: 150px; color: #ffffff}
 
-#QR{background-image: var(--QRImage); height: 300px; width: 300px}
+#QR{background-image: url("../graphics/nicholas-sampson-IZrEEtu3fkk-unsplash.jpg"); height: 300px; width: 300px}
 .contact-box {height: 100px;}
 .contact-box-container {line-height: 100px;}
 
