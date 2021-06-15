@@ -17,6 +17,7 @@ function myFunction() {
         document.querySelector("#b2").style.color = "var(--cardHeaderColor)";
         document.querySelector("#b3").style.color = "var(--cardHeaderColor)";
         document.querySelector("#b4").style.color = "var(--cardHeaderColor)";
+        document.querySelector("#b5").style.color = "var(--cardHeaderColor)";
     } else {
       // header position
         document.getElementById("nav").style.backgroundColor = "#ffcc3300";
@@ -32,5 +33,6 @@ function myFunction() {
         document.querySelector("#b2").style.color = "#ffffff";
         document.querySelector("#b3").style.color = "#ffffff";
         document.querySelector("#b4").style.color = "#ffffff";
+        document.querySelector("#b5").style.color = "#ffffff";
     }
 }
