@@ -130,6 +130,31 @@ a.card-text:hover {
 .card-input-container:hover{
 
 }
+/* CARD TAG */
+.card-tag-bar {
+
+}
+.card-tag {
+
+}
+.card-tag:hover {
+
+}
+.card-tag-container {
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #ffcc33;
+  color: #000000;
+  cursor: pointer;
+  line-height: 40px;
+}
+.card-tag-container:hover {
+  background-color: #808080;
+}
 
 
 /**********INDIVIDUAL COMPONENTS**********/
