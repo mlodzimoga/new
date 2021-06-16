@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
-
+    <link rel="stylesheet" href="css/panel.css">
     <script src="js/Wilga.js"></script>
   </head>
   <body class="container">
@@ -29,9 +29,18 @@
         </div>
         <div class="aside-bar">
           <button type="button" name="button" class="btn" id="themebutton">Jasny</button>
+          <button type="button" name="button" class="btn" id="MN" onclick="panel.switchPanel()"></button>
         </div>
       </nav>
     </aside>
+
+    <div class="panel-section" id="panel">
+      <div class="panel-container">
+        <div class="btn">Nasza idea</div>
+        <div class="btn">Nasza idea</div>
+
+      </div>
+    </div>
 
     <div class="content-section">
       <header class="header-section" id="BG">
@@ -333,5 +342,6 @@
 
     <script src="js/Theme.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/panel.js"></script>
   </body>
 </html>

@@ -1,0 +1,34 @@
+.panel-section {
+  display: none;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 500px;
+  background-color: var(--mainBackgroundColor);
+  color: var(--cardHeaderColor);
+  box-shadow: 12px 12px 96px var(--cardComponentshadowColor);
+  z-index: 1;
+}
+.panel-container {
+  padding: 120px 50px 50px 50px;
+  width: calc(100% - 100px);
+  height: calc(100% - 170px);
+}
+
+@media screen and (max-width: 1641px) {
+
+}
+@media screen and (max-width: 1199px) {
+
+}
+@media screen and (max-width: 767px) {
+  .panel-section {
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 767px) {
+  .panel-section {
+    display: none;
+  }
+}
