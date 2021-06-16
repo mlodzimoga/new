@@ -151,6 +151,7 @@ a.card-text:hover {
   color: #000000;
   cursor: pointer;
   line-height: 40px;
+  text-decoration: none;
 }
 .card-tag-container:hover {
   background-color: #808080;
