@@ -144,13 +144,13 @@ a.card-text:hover {
   border: none;
   border-radius: 5px;
   width: 100px;
-  height: 40px;
-  font-size: 15px;
+  height: 35px;
+  font-size: 12px;
   text-align: center;
   background-color: #ffcc33;
   color: #000000;
   cursor: pointer;
-  line-height: 40px;
+  line-height: 35px;
   text-decoration: none;
 }
 .card-tag-container:hover {
@@ -210,7 +210,7 @@ a.card-text:hover {
 #cv-button:hover {background-color: grey}
 #cv-button-container {line-height: 150px; color: #ffffff}
 
-#QR{background-image: url("../graphics/nicholas-sampson-IZrEEtu3fkk-unsplash.jpg"); height: 300px; width: 300px}
+#QR{background-image: url("../graphics/nicholas-sampson-IZrEEtu3fkk-unsplash.jpg");}
 .contact-box {height: 100px;}
 .contact-box-container {line-height: 100px;}
 
