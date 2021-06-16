@@ -140,6 +140,7 @@ a.card-text:hover {
   box-shadow: 12px 12px 96px var(--cardComponentshadowColor);
   border-radius: 5px;
   width: 225px;
+  width: 300px;
 }
 .project-logo {
   background-color: #1f1f1f;
@@ -150,13 +151,16 @@ a.card-text:hover {
   text-decoration: none;
 }
 .project-container {
-  padding: 0px 15px 15px 15px;
+  padding: 0px 15px 25px 15px;
 }
 .project-header {
+  width: 100%;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
   color: var(--cardHeaderColor);
+  justify-content: center;
+  text-align: center;
 }
 
 #IA1{background-image: url("../graphics/alexis-antoine-c4xY9q2o4vo-unsplash.jpg"); }

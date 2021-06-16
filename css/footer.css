@@ -43,3 +43,9 @@
 .footer-link:hover {
   color: #ffffff;
 }
+
+@media screen and (max-width: 767px) {
+  .footer-section {
+    padding: 100px 50px 200px 50px;
+  }
+}
