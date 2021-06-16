@@ -41,8 +41,9 @@ class Theme {
   variables = [];
   values = [];
 
-  constructor(name="") {
+  constructor(name="", icon_url="") {
     this.name = name;
+    this.icon_url = icon_url;
   }
 
   add(variable, value) {
@@ -74,6 +75,9 @@ class ThemeController {
   statusesCounter = 0;
   statuses = [];
 
+  statusIconesCounter = 0;
+  statusIcones = [];
+
   buttonsCounter = 0;
   buttons = [];
 
@@ -96,6 +100,11 @@ class ThemeController {
   addStatus(status_id) {
     this.statuses.push(status_id);
     this.statusesCounter++;
+  }
+
+  addStatusIcon(statusIcon_id) {
+    this.statusIcones.push(statusIcon_id);
+    this.statusIconesCounter++;
   }
 
 //(+)
@@ -124,6 +133,9 @@ class ThemeController {
     this.themes[state].set();
     for (var i = 0; i < this.statusesCounter; i++) {
       document.getElementById(this.statuses[i]).innerHTML = this.themes[state].name;
+    }
+    for (var i = 0; i < this.statusIconesCounter; i++) {
+      document.getElementById(this.statusIcones[i]).style.backgroundImage = "url("+this.themes[state].icon_url+")";
     }
   }
 

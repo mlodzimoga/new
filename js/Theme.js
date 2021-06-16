@@ -1,4 +1,4 @@
-var light = new Theme("Jasny");
+var light = new Theme("Jasny", "graphics/app-icons/outline_light_mode_black_24dp.png");
 light.add("--mainBackgroundColor", "#ffffff");
 
 light.add("--cardHeaderColor", "#000000");
@@ -24,7 +24,7 @@ light.add("--QRImage", "url('../graphics/QRDark.png')");
 //dimmed.add("--GHImage", "url('../graphics/GitHub-Mark-120px-plus.png')");
 //dimmed.add("--QRImage", "url('../graphics/QRLight.png')");
 
-var dark = new Theme("Ciemny");
+var dark = new Theme("Ciemny", "graphics/app-icons/outline_dark_mode_white_24dp.png");
 dark.add("--mainBackgroundColor", "#101010");
 
 dark.add("--cardHeaderColor", "#ffffff");
@@ -46,7 +46,7 @@ themeController.addTheme(dark);
 
 themeController.addButton("themebutton");
 // themeController.addButton("themebutton2");
-themeController.addStatus("themebutton");
+themeController.addStatusIcon("themebutton");
 
 // document.getElementById("defaultThemeSetter2").addEventListener('click',function () {themeController.synchronizeLocalTheme()});
 

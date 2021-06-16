@@ -48,11 +48,11 @@
 .btn{
   border: none;
   border-radius: 5px;
-  width: 80px;
+  width: 40px;
   height: 40px;
   font-size: 15px;
   text-align: center;
-  background-color: #1f1f1f;
+  background-color: #1f1f1f00;
   color: #ffffff;
   cursor: pointer;
   background-position: center;
