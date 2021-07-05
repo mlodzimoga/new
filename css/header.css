@@ -68,6 +68,15 @@
   text-decoration: none;
 }
 
+.header-title-s {
+  color: #ffffff;
+  color: #ffcc33;
+  align-items: center;
+  font-size: 140px;
+  /* line-height: 2.6; */
+  text-decoration: none;
+}
+
 .header-subtitle {
   color: #ffffff;
   align-items: center;
@@ -79,7 +88,9 @@
 #BG {background-image: url("../graphics/arthur-poulin-NhU0nUR7920-unsplash.png")}
 
 @media screen and (max-width: 1199px) {
-
+  .header-title-s {
+    font-size: 70px;
+  }
 }
 @media screen and (max-width: 767px) {
   .header-title {
