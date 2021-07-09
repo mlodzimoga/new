@@ -160,7 +160,7 @@ a.card-text:hover {
 
 
 /**********INDIVIDUAL COMPONENTS**********/
-#ME{background-image: url("../graphics/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg"); }
+#ME{background-image: url("../graphics/index/toa-heftiba-O3ymvT7Wf9U-unsplash_Easy-Resize.com.jpg"); }
 
 .projects-card {justify-content: space-between}
 .project {
@@ -193,15 +193,15 @@ a.card-text:hover {
   text-align: center;
 }
 
-#IA1{background-image: url("../graphics/inja-pavlic-vs4Eb73-AjU-unsplash.jpg"); }
-#IA2{background-image: url("../graphics/michael-dziedzic-dbpLrMALyiM-unsplash.jpg"); }
-#IA3{background-image: url("../graphics/helena-lopes-PGnqT0rXWLs-unsplash.jpg"); }
-#IA4{background-image: url("../graphics/hunters-race-MYbhN8KaaEc-unsplash.jpg"); }
-#IA5{background-image: url("../graphics/junior-moran-hrEJYRtBDrk-unsplash (1).png"); }
-#IA5{background-image: url("../graphics/hannah-busing-fPDF4GQJmxM-unsplash.jpg"); }
-#IA6{background-image: url("../graphics/valery-tenevoy-uruNsgg5j-o-unsplash.jpg"); }
-#IA7{background-image: url("../graphics/olga-delawrence-5616whx5NdQ-unsplash.jpg"); }
-#IA8{background-image: url("../graphics/gayatri-malhotra-WzfqobnrSVc-unsplash.jpg"); }
+#IA1{background-image: url("../graphics/index/inja-pavlic-vs4Eb73-AjU-unsplash.png"); }
+#IA2{background-image: url("../graphics/index/michael-dziedzic-dbpLrMALyiM-unsplash.png"); }
+#IA3{background-image: url("../graphics/index/helena-lopes-PGnqT0rXWLs-unsplash.png"); }
+#IA4{background-image: url("../graphics/index/hunters-race-MYbhN8KaaEc-unsplash.png"); }
+#IA5{background-image: url("../graphics/index/junior-moran-hrEJYRtBDrk-unsplash (1).png"); }
+#IA5{background-image: url("../graphics/index/hannah-busing-fPDF4GQJmxM-unsplash.png"); }
+#IA6{background-image: url("../graphics/index/valery-tenevoy-uruNsgg5j-o-unsplash.png"); }
+#IA7{background-image: url("../graphics/index/olga-delawrence-5616whx5NdQ-unsplash.png"); }
+#IA8{background-image: url("../graphics/index/gayatri-malhotra-WzfqobnrSVc-unsplash.png"); }
 
 #SB{background-image: url("../graphics/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg")}
 
@@ -218,7 +218,7 @@ a.card-text:hover {
 #cv-button:hover {background-color: grey}
 #cv-button-container {line-height: 150px; color: #000000}
 
-#QR{background-image: url("../graphics/austin-kehmeier-lyiKExA4zQA-unsplash.jpg");}
+#QR{background-image: url("../graphics/index/austin-kehmeier-lyiKExA4zQA-unsplash_Easy-Resize.com.jpg");}
 .contact-box {height: 100px;}
 .contact-box-container {line-height: 100px;}
 
