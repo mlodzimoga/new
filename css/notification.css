@@ -1,4 +1,5 @@
 .notification-section {
+  display: none;
   position: fixed;
   /* box-shadow: 12px 12px 96px var(--cardComponentshadowColor); */
   background-color: #ffcc33;
