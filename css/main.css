@@ -143,7 +143,8 @@ a.card-text:hover {
 .card-tag-container {
   border: none;
   border-radius: 5px;
-  width: 100px;
+  /* width: 100px; */
+  padding: 0px 20px;
   height: 35px;
   font-size: 12px;
   text-align: center;
@@ -159,7 +160,7 @@ a.card-text:hover {
 
 
 /**********INDIVIDUAL COMPONENTS**********/
-#ME{background-image: url("../graphics/ian-dooley-hpTH5b6mo2s-unsplash.jpg"); }
+#ME{background-image: url("../graphics/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg"); }
 
 .projects-card {justify-content: space-between}
 .project {
@@ -192,11 +193,15 @@ a.card-text:hover {
   text-align: center;
 }
 
-#IA1{background-image: url("../graphics/alexis-antoine-c4xY9q2o4vo-unsplash.png"); }
-#IA2{background-image: url("../graphics/daniel-sessler-J7D2hjgPR2s-unsplash.png"); }
-#IA3{background-image: url("../graphics/dan-senior-KDIXcQfCjSU-unsplash.png"); }
-#IA4{background-image: url("../graphics/david-emrich-eMkd0FuGKz8-unsplash.png"); }
+#IA1{background-image: url("../graphics/inja-pavlic-vs4Eb73-AjU-unsplash.jpg"); }
+#IA2{background-image: url("../graphics/michael-dziedzic-dbpLrMALyiM-unsplash.jpg"); }
+#IA3{background-image: url("../graphics/helena-lopes-PGnqT0rXWLs-unsplash.jpg"); }
+#IA4{background-image: url("../graphics/hunters-race-MYbhN8KaaEc-unsplash.jpg"); }
 #IA5{background-image: url("../graphics/junior-moran-hrEJYRtBDrk-unsplash (1).png"); }
+#IA5{background-image: url("../graphics/hannah-busing-fPDF4GQJmxM-unsplash.jpg"); }
+#IA6{background-image: url("../graphics/valery-tenevoy-uruNsgg5j-o-unsplash.jpg"); }
+#IA7{background-image: url("../graphics/olga-delawrence-5616whx5NdQ-unsplash.jpg"); }
+#IA8{background-image: url("../graphics/gayatri-malhotra-WzfqobnrSVc-unsplash.jpg"); }
 
 #SB{background-image: url("../graphics/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg")}
 
@@ -211,9 +216,9 @@ a.card-text:hover {
 #cv {background-color: var(--CVBackgroundColor)}
 #cv-button {height: 150px; background-color: #ffc107}
 #cv-button:hover {background-color: grey}
-#cv-button-container {line-height: 150px; color: #ffffff}
+#cv-button-container {line-height: 150px; color: #000000}
 
-#QR{background-image: url("../graphics/nicholas-sampson-IZrEEtu3fkk-unsplash.jpg");}
+#QR{background-image: url("../graphics/austin-kehmeier-lyiKExA4zQA-unsplash.jpg");}
 .contact-box {height: 100px;}
 .contact-box-container {line-height: 100px;}
 
