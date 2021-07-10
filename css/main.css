@@ -214,6 +214,11 @@ a.card-text:hover {
 #GH{background-image: var(--GHImage)}
 #GL{background-image: url("../graphics/gitlab-icon-rgb.png")}
 
+#IFB {background-image: url("../graphics/socialmedia-icons/fb.png")}
+#ITT {background-image: url("../graphics/socialmedia-icons/tt.png")}
+#IIG {background-image: url("../graphics/socialmedia-icons/ig.png")}
+#IYT {background-image: url("../graphics/socialmedia-icons/yt.png")}
+
 #cv {background-color: var(--CVBackgroundColor)}
 #cv-button {height: 150px; background-color: #ffc107}
 #cv-button:hover {background-color: grey}
