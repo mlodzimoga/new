@@ -168,6 +168,7 @@ a.card-text:hover {
   border-radius: 5px;
   width: 225px;
   width: 300px;
+  text-decoration: none;
 }
 .project-logo {
   background-color: #1f1f1f;
